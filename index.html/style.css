@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* header part */
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(dog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-top {
+  height: 100px;
+  display: flex;
+}
+
+.logo {
+  padding: 25px;
+  color: #fff;
+}
+
+.logo:hover {
+  color: rgb(206, 27, 27);
+}
+
+.nav {
+  margin-left: 250px;
+  padding: 35px;
+}
+.nav ul {
+  display: flex;
+}
+.nav ul li {
+  margin-left: 50px;
+}
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+.nav ul li {
+  list-style: none;
+}
+
+.search {
+  height: 48px;
+  width: 240px;
+  border-radius: 12px;
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 8px;
+}
+.input {
+  margin-left: 4px;
+  padding: 5px;
+  border-radius: 0;
+  background-color: #fff;
+}
+
+#btn {
+  color: red;
+  background-color: #fff;
+  padding: 3px;
+}
+
+#btn:hover {
+  color: #fff;
+}
+
+/* header_container */
+.header_contain {
+  margin-top: 50px;
+  margin-left: 100px;
+  color: #fff;
+}
+.txt_contain {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+}
+
+.view {
+  padding: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 150px;
+}
+
+#view1 {
+  color: blue;
+}
+
+#view2 {
+  /* background-color: rgb(180, 180, 160); */
+  background-color: lightyellow;
+  color: rgb(117, 112, 112);
+}
+#view1:hover {
+  color: rgb(170, 164, 164);
+  background-color: lightyellow;
+}
